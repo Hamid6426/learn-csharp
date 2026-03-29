@@ -128,3 +128,10 @@
 - Cloud Deployment and Monitoring
 - Security, Testing, and Deployment (API Design & Azure)
 - Microsoft Full-Stack Developer Capstone
+
+## Repositories
+
+[learning-csharp](https://github.com/hamid6426/learning-csharp) - Current Repo
+[learning-dotnet](https://github.com/hamid6426/learning-dotnet)
+[learning-blazor](https://github.com/hamid6426/learning-blazor)
+[learning-mysql](https://github.com/hamid6426/learning-mysql)
