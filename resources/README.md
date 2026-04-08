@@ -85,8 +85,8 @@
 
 ### Phase 1: C# Fundamentals
 
-- C# Programming Fundamentals and Development Environment
 - Introduction to Programming with C#
+- C# Programming Fundamentals and Development Environment
 - Advanced C# Language Features & Object-Oriented Programming
 - Professional C# Development Practices (LINQ & Async)
 - GUI Development and AI-Enhanced Programming (Windows Forms)

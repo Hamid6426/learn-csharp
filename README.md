@@ -66,6 +66,7 @@ csharp_learning/
 │   ├── 08_arrays/
 │   ├── 09_multidimensional_arrays/
 │   ├── 10_strings/
+|   |
 │   ├── 11_classes_and_objects/
 │   │   ├── ClassesAndObjects.csproj
 │   │   ├── Program.cs
@@ -81,6 +82,7 @@ csharp_learning/
 │   ├── 19_generics/
 │   ├── 20_dependency_injection/
 │   ├── 21_unit_testing_xunit/
+|   |
 │   └── 22_mini_console_app/
 │       ├── MiniConsoleApp.csproj
 │       ├── Program.cs
