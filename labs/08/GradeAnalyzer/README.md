@@ -176,3 +176,62 @@ Review your commented code to ensure:
 - XML documentation should help other developers use your methods correctly
 - Comments are most valuable when they explain reasoning and context
 - Good variable and method names reduce the need for extensive commenting
+
+---
+
+## UNDERSTANDING
+
+### Inline Comments
+
+To simplify, inline comments are required in this format
+
+[what is happening] `because` [why it’s needed] `to` [what it achieves]
+
+Example:
+
+```csharp
+grades.Add(grade);
+// [Add grade to list] `because` [we need to store grades] `to` [calculate statistics]
+
+grades.Sum() / grades.Count;
+// [Calculate average] `because` [we need to calculate the average of the grades] `to` [get the average grade]
+
+Math.Sqrt(sumOfSquaredDeviations / (grades.Count - 1));
+// [Calculate standard deviation] `because` [we need to calculate the standard deviation of the grades] `to` [get the standard deviation of the grades]
+```
+
+### File Header Documentation
+
+File header documentation is required in this format, any field deemed useful can be included. Fields are not required to be in this order. Must have fields are File, Purpose, Author and Created(Creation Date).
+
+```csharp
+/*
+ * File: [filename]
+ * Purpose: [purpose of the file]
+ * Author: [author name]
+ * Created: [creation date]
+ * Last Modified: [last modification date]
+ * Description: [description of the file]
+ * Dependencies: [dependencies of the file]
+ */
+```
+
+### XML Documentation
+
+XML documentation is required in this format, any field deemed useful can be included. Fields are not required to be in this order. Must have fields are Summary, Parameters, Returns, Remarks,
+
+Example:
+
+```csharp
+/// <summary>
+/// [summary of the method]
+/// </summary>
+/// <param name="[parameter name]"> [description of the parameter] </param>
+/// <returns> [description of the return value] </returns>
+/// <remarks> [remarks of the method] </remarks>
+/// <example>
+/// <code>
+/// [code example of the method]
+/// </code>
+/// </example>
+```
