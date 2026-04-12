@@ -104,10 +104,3 @@ Used by IDEs for tooltips and documentation generation.
 /// <returns>Sum of a and b</returns>
 static int Add(int a, int b) => a + b;
 ```
-
----
-
-## References
-
-- [Top-level statements - dotnet docs](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/top-level-statements)
-- [XML documentation comments](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/)

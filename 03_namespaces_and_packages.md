@@ -127,11 +127,3 @@ Convention: namespace should mirror folder structure.
 2. Type `> .NET: Add Package` and select it
 3. Enter the package name (e.g., `Pastel`) and select the desired version
 4. The package will be added to your project, and you can start using it in your code files
-
----
-
-## References
-
-- [Namespaces - dotnet docs](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/namespaces)
-- [File-scoped namespaces](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-10.0/file-scoped-namespaces)
-- [global using](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using-directive#global-modifier)

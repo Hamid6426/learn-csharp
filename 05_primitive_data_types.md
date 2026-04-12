@@ -82,11 +82,3 @@ Uninitialized value types in a class default to:
 | `float`, `double`, `decimal` | `0.0`   |
 | `bool`                       | `false` |
 | `char`                       | `'\0'`  |
-
----
-
-## References
-
-- [Built-in types - dotnet docs](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types)
-- [Integral numeric types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types)
-- [Floating-point numeric types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types)
